@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Spaghetti Carbonara</title>
+  <link rel="stylesheet" href="./css/custom-video.css">
+
+  <!-- Hotjar Tracking Code for https://origamid.com/iadt/thesis/video/ -->
+  <script>
+    (function (h, o, t, j, a, r) {
+      h.hj = h.hj || function () { (h.hj.q = h.hj.q || []).push(arguments) };
+      h._hjSettings = { hjid: 1667307, hjsv: 6 };
+      a = o.getElementsByTagName('head')[0];
+      r = o.createElement('script'); r.async = 1;
+      r.src = t + h._hjSettings.hjid + j + h._hjSettings.hjsv;
+      a.appendChild(r);
+    })(window, document, 'https://static.hotjar.com/c/hotjar-', '.js?sv=');
+  </script>
+
+</head>
+
+<body>
+  <section class="v-container">
+    <div class="v-wrapper">
+      <!--       <video id="video" preload="metadata" src="./video/video.mp4"></video> -->
+      <video id="video" preload="metadata" src="./video/video.mp4"></video>
+      <div class="v-controls v-active" id="v-controls">
+        <div id="progress" class="v-progress">
+          <span class="v-progress-time"></span>
+          <div id="progress-max" class="v-progress-max">
+            <div id="progress-total" class="v-progress-total"></div>
+          </div>
+        </div>
+        <div class="v-buttons">
+          <button id="play" class="v-play">Play</button>
+          <button id="rewind" class="v-rewind">Rewind</button>
+          <button id="forward" class="v-forward">Forward</button>
+          <div class="v-time">
+            <span class="v-time-passed"></span>
+            <span>/</span>
+            <span class="v-time-total"></span>
+          </div>
+          <div class="v-volume">
+            <div class="v-volume-level">
+              <div id="volume-slide" class="v-volume-current-level"></div>
+            </div>
+            <button id="volume" class="v-volume-btn">Volume</button>
+          </div>
+          <div class="v-playback">
+            <button id="playback" class="v-playback-btn"><span class="v-playback-speed">1</span><span>x</span></button>
+            <div class="v-playback-menu"></div>
+          </div>
+          <!-- <button class="v-settings"></button> -->
+          <button id="fullscreen" class="v-fullscreen">Fullscreen</button>
+        </div>
+      </div>
+    </div>
+    <div class="int-video"></div>
+  </section>
+
+  <!-- <script src="./script/clickstream.js"></script> -->
+  <!-- <script src="./script/heatmap.min.js"></script> -->
+  <!-- <script src="./script/heatmap-data.js"></script> -->
+  <script src="./script/clipboard.min.js"></script>
+  <script src="./script/custom-video.js"></script>
+</body>
+
+</html>
